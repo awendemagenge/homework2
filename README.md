@@ -1,1 +1,5 @@
 # homework2
+Main differences and similarities between v8 and spider monkey:
+* the V8 is an open source JavaScript engine for google chrome and NodeJS and it is written in C++  https://www.freecodecamp.org/news/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964/ and spider Monkey is a source code for Mozilla Firefox and is also written in c++ https://en.wikipedia.org/wiki/SpiderMonkey
+*	V8 is relatively new, first introduced as part of Google Chrome. The biggest difference is in compilation. Spider Monkey compiles JavaScript to an intermediate language which is interpreted. V8 differs by compiling JavaScript to machine instructions, eliminating a need for an interpreter https://www.quora.com/how-do-v8-and-spidermonkey-differ
+* The main difference between chrome’s V8 Engine and Mozilla’s Spider Monkey lies in ECMAScript conformance Test262 which is used to check how closely JavaScript implementation follows the ECMAScript 5th edition specification standards, created by ECMA International. https://www.geeksforgeeks.org/what-happens-inside-javascript-engine/
